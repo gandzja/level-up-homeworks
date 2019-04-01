@@ -1,5 +1,36 @@
-body {
-  background-color: indigo;
-  color: #fff;
-  font-size: 40px;
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 2.8em;
+}
+h3 {
+  font-size: 2rem;
+}
+h4{
+  font-size: 4.5vh;
+}
+h5 {
+  font-size: 1.5vw;
+}
+h6 {
+  font-size: 3vmin;
+}
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+table > tbody > tr > td:first-letter {
+  color: red;
+}
+tr:nth-child(odd) td:nth-child(5n) {
+  font-weight: bold;
+  font-style: italic;
+}
+tr:nth-child(odd) td:nth-child(6n) {
+  font-weight: bold;
+  font-style: italic;
+}
+tr:nth-child(odd) td:nth-child(7n) {
+  font-weight: bold;
+  font-style: italic;
 }
