@@ -1,3 +1,12 @@
+html {
+  font-size: 16px;
+}
+table {
+  width: 100%;
+}
+td {
+  padding: 16px;
+}
 h1 {
   font-size: 50px;
 }
@@ -7,7 +16,7 @@ h2 {
 h3 {
   font-size: 2rem;
 }
-h4{
+h4 {
   font-size: 4.5vh;
 }
 h5 {
@@ -19,18 +28,10 @@ h6 {
 tr:nth-child(even) {
   background-color: #ddd;
 }
-table > tbody > tr > td:first-letter {
+td:first-letter {
   color: red;
 }
-tr:nth-child(odd) td:nth-child(5n) {
-  font-weight: bold;
-  font-style: italic;
-}
-tr:nth-child(odd) td:nth-child(6n) {
-  font-weight: bold;
-  font-style: italic;
-}
-tr:nth-child(odd) td:nth-child(7n) {
+tr:nth-child(odd) td:nth-child(5n), tr:nth-child(odd) td:nth-child(6n),tr:nth-child(odd) td:nth-child(7n) {
   font-weight: bold;
   font-style: italic;
 }
