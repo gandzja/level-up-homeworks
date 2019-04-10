@@ -206,13 +206,18 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
 }*/
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
 h2 {
   font-size: 2em;
   font-weight: bold;
 }
-/*table {
+table {
+table-layout: inherit;
 width: 100%;
-}*/
+}
 .authorization {
   text-align: right;
 } 
@@ -241,7 +246,7 @@ p {
 
 .email {
   border: 1px solid silver;
-  padding: 10px;
+  padding: 0 10px;
   height: 45px;
   width: 17em;
   margin-right: 30px;
@@ -250,7 +255,12 @@ p {
 button {
   border: 1px solid silver;
   font-weight: bold;
-  padding: 10px;
+  padding: 0 10px;
   height: 45px;
   text-transform: uppercase;
+}
+footer {
+  font-size: 18px;
+  padding: 30px;
+  text-align: center;
 }
