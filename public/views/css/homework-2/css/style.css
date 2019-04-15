@@ -45,20 +45,17 @@ h2 {
 .authorization {
   text-align: right;
 } 
-/*.secondtable {
-  margin: 24px;
-}*/
+
 .secondtable td {
   border: 1px solid grey;
   vertical-align: middle;
-  padding: 16px 64px 16px 64px;
+  padding: 16px 64px;
 }
 .firsttable {
   width: 100%;
 }
 .firsttable tr td {
   padding: 28px;
-  border: 0;
 }
 p {
   text-indent: 1.5em;
