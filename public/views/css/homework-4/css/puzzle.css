@@ -1,0 +1,67 @@
+.margin {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.violet {
+  width: 70px;
+  height: 70px;
+  background-color: #8E44AD;
+  float: left;
+}
+
+.green {
+  width: 145px;
+  height: 70px;
+  background-color: #2ECC71;
+  float: left;
+}
+
+.red {
+  width: 70px;
+  height: 145px;
+  background-color: #E74C3C;
+  float: right;
+}
+
+.blue {
+  width: 70px;
+  height: 220px;
+  background-color: #3498DB;
+  float: left;
+}
+
+.red2 {
+  width: 70px;
+  height: 145px;
+  background-color: #E74C3C;
+  float: left;
+}
+
+.orange {
+  width: 70px;
+  height: 70px;
+  background-color: #F1C40F;
+  float: left;
+}
+
+.green2 {
+  width: 145px;
+  height: 70px;
+  background-color: #2ECC71;
+  float: right;
+}
+
+.blue2 {
+  width: 220px;
+  height: 70px;
+  background-color: #3498DB;
+  float: right;
+}
+© 2019 GitHub, Inc.
