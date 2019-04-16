@@ -28,6 +28,12 @@ a {
 *, :before, :after {
   box-sizing: inherit;
 }
+.wrapper {
+  background-image: url(../images/pattern.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  position: relative;
+}
 .container {
   margin: 0 auto;
   width: 1170px;
