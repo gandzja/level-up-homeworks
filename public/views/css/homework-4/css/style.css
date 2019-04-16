@@ -34,6 +34,9 @@ a {
   background-attachment: fixed;
   position: relative;
 }
+.content {
+  margin-top: 60px;
+}
 .container {
   margin: 0 auto;
   width: 1170px;
@@ -86,7 +89,7 @@ a {
   margin-right: 6px;
   margin-left: 6px;
 }
-.introback {
+.img-title {
   height: 400px;
   background-image: url(../images/intro.jpg);
   background-repeat: no-repeat;
@@ -94,12 +97,18 @@ a {
   background-size: cover;
   background-position: center center;
   position: relative;
-  margin-bottom: 40px;
-  padding-top: 200px;
+}
+.content-title {
+  line-height: 64px;
   text-align: center;
   font-weight: bold;
   font-size: 64px;
   color: white;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
 }
 .row {
   margin: 0 -15px;
@@ -111,9 +120,8 @@ a {
 }
 .column {
   width: 25%;
-  padding: 0 15px;
+  padding:15px;
   float: left;
-  margin-bottom: 30px;
 }
 .title {
   margin-bottom: 40px;
@@ -140,11 +148,11 @@ a {
   background-color: white;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
-.head-desc {
+.head-descr {
   color: grey;
   margin-bottom: 15px;
 }
-.desc {
+.descr {
   margin-bottom: 15px;
 }
 .card-button {
@@ -165,9 +173,8 @@ a {
   text-transform: uppercase;
   border-radius: 3px;
   display: block;
-  margin: auto;
+  margin: 15px auto;
 }
-
 .footer {
   padding: 24px 0;
   background-color: #231f1f;
