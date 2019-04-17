@@ -59,6 +59,7 @@ a {
 .nav-left {
   float: left;  
   text-transform: uppercase;
+  font-size: 0;
 }
 .nav-right {
   float: right;
@@ -68,6 +69,7 @@ a {
   vertical-align: top;;
   margin-right: 16px;
   position: relative;
+  font-size: 1rem
 }
 .nav-link:last-child {
   margin-right: 0;
@@ -150,11 +152,15 @@ a {
 .descr {
   margin-bottom: 15px;
 }
+.button-otstup {
+  font-size: 0;
+}
 .card-button {
   text-transform: uppercase;
   display: inline-block;
   color: #53ab53;
-  margin-right: 15px; 
+  margin-right: 15px;
+  font-size: 1rem;
 }
 .card-button:last-child {
   margin-right: 0;
