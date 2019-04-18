@@ -6,10 +6,8 @@ html {
 
 body {
   color: #444;
-  font-family: Roboto, Arial, sans-serif;  
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+  font-family: Roboto, Arial, sans-serif;
+  background-image: url("../images/pattern.png");
 }
 
 a {
@@ -28,14 +26,8 @@ a {
 *, :before, :after {
   box-sizing: inherit;
 }
-.wrapper {
-  background-image: url(../images/pattern.png);
-  background-repeat: repeat;
-  background-attachment: fixed;
-  position: relative;
-}
 .content {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 .container {
   margin: 0 auto;
@@ -93,14 +85,13 @@ a {
 }
 .img-title {
   height: 400px;
-  background-image: url(../images/intro.jpg);
+  background-image: url("../images/intro.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  position: relative;
 }
-.content-title {
+.img-title-text {
   line-height: 400px;
   text-align: center;
   font-weight: bold;
@@ -117,7 +108,7 @@ a {
 }
 .column {
   width: 25%;
-  padding: 0 15px 30px;
+  padding: 0 15px;
   float: left;
 }
 .title {
@@ -125,6 +116,9 @@ a {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
+}
+.card {
+  margin-bottom: 30px;
 }
 .card-image {
   background-image: url("../images/everest.jpg");
@@ -152,38 +146,47 @@ a {
 .descr {
   margin-bottom: 15px;
 }
-.button-otstup {
+.card__actions {
+  padding: 0 8px 12px;
   font-size: 0;
 }
-.card-button {
-  text-transform: uppercase;
-  display: inline-block;
-  color: #53ab53;
-  margin-right: 15px;
-  font-size: 1rem;
-}
-.card-button:last-child {
-  margin-right: 0;
+.card__action {
+  margin-right: 12px;
 }
 .button {
-  color: white;
-  background-color: #53ab53;
-  text-align: center;
-  line-height: 40px;
-  width: 120px;
-  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 64px;
+  height: 36px;
+  padding: 0 12px;
   border-radius: 3px;
-  display: block;
-  margin: 0 auto;
+  background-color: transparent;
+  color: green;
+  font-size: 1rem;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.card__action:last-child {
+  margin-right: 0;
+}
+.load-more {
+  text-align: center;
+}
+.button-size-medium {
+  height: 48px;
+  padding-right: 16px;
+  padding-left: 16px;
+  line-height: 48px;
+  color: white;
+  background-color: green;
 }
 .footer {
   padding: 24px 0;
   background-color: #231f1f;
   color: white;
   margin-top: 30px;
-}
-.footer .column {
-  margin-bottom: 0;
 }
 .footer-link {
   display: table;
