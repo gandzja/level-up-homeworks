@@ -27,7 +27,7 @@ a {
   box-sizing: inherit;
 }
 .content {
-  padding-top: 60px;
+  padding: 60px 0;
 }
 .container {
   margin: 0 auto;
@@ -55,8 +55,16 @@ a {
 }
 .nav-right {
   float: right;
+  font-size: 0;
 }
 .nav-link {
+  display: inline-block;
+  vertical-align: top;;
+  margin-right: 16px;
+  position: relative;
+  font-size: 1rem
+}
+.nav-auth-link {
   display: inline-block;
   vertical-align: top;;
   margin-right: 16px;
@@ -90,6 +98,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  margin-bottom: 40px;
 }
 .img-title-text {
   line-height: 400px;
@@ -112,7 +121,7 @@ a {
   float: left;
 }
 .title {
-  margin: 40px 0;
+  margin-bottom: 40px;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -147,7 +156,6 @@ a {
   margin-bottom: 15px;
 }
 .card__actions {
-  padding: 0 8px 12px;
   font-size: 0;
 }
 .card__action {
@@ -173,6 +181,7 @@ a {
 }
 .load-more {
   text-align: center;
+  margin-bottom: 30px;
 }
 .button-size-medium {
   height: 48px;
@@ -180,13 +189,14 @@ a {
   padding-left: 16px;
   line-height: 48px;
   color: white;
+}
+.button-theme {
   background-color: green;
 }
 .footer {
   padding: 24px 0;
   background-color: #231f1f;
   color: white;
-  margin-top: 30px;
 }
 .footer-link {
   display: table;
