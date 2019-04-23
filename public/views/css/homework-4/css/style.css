@@ -86,14 +86,6 @@ a {
   bottom: 0;
   left: 0;
 }
-.nav-auth-link {
-  display: inline-block;
-  vertical-align: top;
-}
-.nav-auth-divider {
-  margin-right: 6px;
-  margin-left: 6px;
-}
 .img-title {
   height: 400px;
   background-image: url("../images/intro.jpg");
@@ -192,7 +184,7 @@ a {
   padding-left: 16px;
   line-height: 48px;
 }
-.button-theme {
+.button-change-color {
   background-color: green;
   color: white;
 }
