@@ -293,23 +293,23 @@ img {
 .checkbox:before {
   content: "";
   margin-top: -10px;
-  border: 2px solid darkgrey;
-  width: 15px;
-  height: 15px;
+  border: 2px solid darkviolet;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
   position: absolute;
   top: 50%;
   left: 0;
 }
 input:checked + .checkbox:after {
   content: "";
-  border-right: 2px solid #003;
-  border-bottom: 2px solid #003;
-  width: 6px;
-  height: 8px;
+  background-color: darkviolet;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
   position: absolute;
-  top: 8px;
+  top: 10px;
   left: 5px;
-  transform: rotate(50deg);
 }
 .card {
   margin-bottom: 30px;
