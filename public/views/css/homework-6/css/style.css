@@ -20,64 +20,115 @@ img {
   padding: 60px 0;
 }
 .container {
-  width: 980px;
+  width: 95%;
   margin: 0 auto;
   padding: 0px 15px;
 }
-.list {
+.main {
   margin-bottom: 100px;
 }
-.blocks {
-  border: 1.5px solid #E9E6E6;
+.list {
+  border-bottom: 1.5px solid #E9E8E8;
   box-shadow: 2px 0px 22px 6px rgba(0, 0, 0, 0.15);
 }
-.block {
-  border-bottom: 1.5px solid #E9E6E6;
-  padding: 15px;
-  display: table;
+.list-line {
+  display: block;
+  border-bottom: 1.5px solid #E9E8E8;
+  padding: 20px 110px 20px 20px;
+  position: relative;
 }
-.block-cell {
+.list-line:last-child {
+  border: none;
+}
+.list-icon {
+  float: left;
   display: table-cell;
   vertical-align: top;
-  padding: 11px;
 }
-.block-icon{
+.list-text {
+  display: table-cell;
+  vertical-align: top;
+}
+.list-status {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin-right: 20px;
+}
+.list-icon-img {
   width: 37px;
   height: 37px;
   background-image: url(../images/sprite.png);
-  background-repeat: no-repeat;  
-  float: left;
+  background-repeat: no-repeat;
 }
-.icon-people-position {
+.list-icon-first-p {
   background-position: -320px -383px;
 }
-.icon-finger-position {
+.list-icon-second-p {
   background-position: -416px -383px;
 }
-.icon-cat-position {
+.list-icon-third-p {
   background-position: -416px -160px;
 }
-.block-text {
-  vertical-align: middle;
+.list-text-p {
+  float: left;
+  padding: 10px;
+  vertical-align: top;
+  width: 100%;
+}
+.list-text-block {
+  padding: 0 15px;
+}
+.list-status-indicator {
+  line-height: 37px;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.list-status-first {
+  background-color: green;
+}
+.list-status-second {
+  background-color: orange;
+}
+.list-status-third {
+  background-color: red;
+}
+/* 
+}
+.line-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+.line-cell-icon {
+  float: left;
+  display: inline-block;
+}
+
+
+.line-cell-text {
+  vertical-align: baseline;
   width: 100%;
   padding: 0 10px;
 }
-.block-btn-status {
-  line-height: 18.5px;
+.line-text {
   display: inline-block;
-  float: right;
-  color: white;
-  border-radius: 5px;
 }
-.block-btn-status-approved {
+
+.line-cell-status-approved {
   background-color: green;
 }
-.block-btn-status-pending {
+.line-cell-status-pending {
   background-color: orange;
 }
-.block-btn-status-error {
+.line-cell-status-error {
   background-color: red;
 }
+.line-btn{
+  display: inline-block;
+  float: right;
+}*/
 .circle {
   margin: 0 auto;
   width: 400px;
