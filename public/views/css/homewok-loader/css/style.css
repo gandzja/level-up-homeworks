@@ -24,14 +24,9 @@ body {
   right: 0;
   left: auto;
 }
-.loader-center {
+.loader:after {
+  content: "";
   position: relative;
-  width: 1em;
-  height: 1em;
-  margin: .2em auto;
-}
-.loader-center:after {
-  content: "12345678910";
   display: flex;
   line-height: 100px;
   margin: auto;
@@ -79,32 +74,35 @@ body {
   }
 }
 @keyframes timing {
+  0%{
+    content: "1";
+  }
   10%{
-    text-indent: -.5em;
+    content: "2";
   }
   20%{
-    text-indent: -1em;
+    content: "3";
   }
   30%{
-   text-indent: -1.5em;
+    content: "4";
   }
   40%{
-    text-indent: -2em;
+    content: "5";
   }
   50%{
-    text-indent: -2.5em;
+    content: "6";
   }
   60%{
-    text-indent: -3em;
+    content: "7";
   }
   70%{
-    text-indent: -3.5em;
-  }
+    content: "8";
+   }
   80%{
-    text-indent: -4em;
+    content: "9";
   }
   90%{
+    content: "10";
     width: 1em;
-    text-indent: -4.5em;
   }
 }
