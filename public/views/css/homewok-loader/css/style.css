@@ -34,7 +34,7 @@ body {
   color: ivory;
   overflow: hidden;
   animation: timing 10s forwards step-end;
-  }
+}
 .loader-indicator {
   width: 200%;
   height: 100%;
@@ -74,34 +74,37 @@ body {
   }
 }
 @keyframes timing {
-  0%{
+  0% {
+    content: "0";
+  }
+  10% {
     content: "1";
   }
-  10%{
+  20% {
     content: "2";
   }
-  20%{
+  30% {
     content: "3";
   }
-  30%{
+  40% {
     content: "4";
   }
-  40%{
+  50% {
     content: "5";
   }
-  50%{
+  60% {
     content: "6";
   }
-  60%{
+  70% {
     content: "7";
-  }
-  70%{
-    content: "8";
    }
-  80%{
+  80% {
+    content: "8";
+  }
+  90% {
     content: "9";
   }
-  90%{
+  100% {
     content: "10";
     width: 1em;
   }
