@@ -1,15 +1,22 @@
 'use strict';
 
+// Unit link - https://learn.javascript.ru/variables#tasks
+
+// Task 1
 var admin;
 var name;
 name = 'Vasiliy';
 admin = name;
 console.log(admin);
 
-var nameOurPlanet;
-var nameVisitor;
+// Unit link - https://learn.javascript.ru/variable-names#tasks
 
-var framePerSecond;
-var connectorBetweenWords;
-var docomentView;
-var appearenceLastPage;
+// Task 1
+var ourPlanetName = "Earth";
+var userName = "Petya";
+
+// Additional task 1
+var amountFramesPerSecond;
+var connectingSignInterword;
+var viewDocumentMode;
+var showLastPageNav;
