@@ -12,8 +12,8 @@ console.log(admin);
 // Unit link - https://learn.javascript.ru/variable-names#tasks
 
 // Task 1
-var ourPlanetName = "Earth";
-var userName = "Petya";
+var ourPlanetName = 'Earth';
+var userName = 'Petya';
 
 // Additional task 1
 var amountFramesPerSecond;
